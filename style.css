@@ -1,0 +1,201 @@
+*{
+    /* border: 0; */
+    margin: auto;  /* 水平置中 */
+}
+
+.me{
+    width: 210px;
+    height: 280px;
+    border-width:10px; 
+    border-style:inset;  /* 邊框樣式 */
+    border-top: 10px #fa0 solid;
+    border-left: 10px rgb(255, 216, 137) solid;
+    border-right: 10px rgb(255, 216, 137) solid;
+    border-bottom: 10px rgb(255, 243, 219) solid;
+    
+}
+
+.me:hover::before{
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    color: #fff;
+    font-size: .8em;
+    background: #df937c;
+    padding: 5px;
+    border-radius: 5px;
+    content: "被發現啦╮(′～‵〞)╭";
+    letter-spacing: 1.5px;
+}
+
+nav{
+    background-size: 100px 600px;
+    background-color: rgba(0, 0, 0, 0.3) ;
+    color:  #00010400;
+    position: relative;  /* 相對定位 */
+    text-align: center;
+    text-shadow: rgba(63, 8, 83, 0.619) 0.15em 0.15em 0.15em;
+    padding: 25px 30px;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:Microsoft JhengHei;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 25px 60px;
+    margin: 20px;
+    position: relative;  /* 相對定位 */
+    left: 14%;  /* 向左方偏移10% */
+}
+
+nav a:hover{
+    background-color: #fa0;
+}
+
+main{
+    width: 1300px;
+    height: 600;
+}
+
+div{  
+    font-size: 20px;
+}
+
+.col1{
+    float: left;
+    margin: 80px;
+    width: 200px;
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;  /* 相對定位 */
+    left: 25%;  /* 向左方偏移25% */
+    transform: translate(-100%);  /* 向左平移物件寬度的100% */
+}
+
+.col2{
+    float: left;
+    margin: 50px;
+    width: 650px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.579) ;
+    background-size: 100px 600px;
+    line-height: 32px;
+    font-family: sans-serif;
+    position: relative;  /* 相對定位 */
+    left: 60%;  /* 向左方偏移60% */
+    transform: translate(-100%);  /* 向左平移物件寬度的100% */border-radius: 10px;
+    text-align: justify;   /* 末行文字不作用外，其餘行都會左右對齊 */
+}
+
+.col2 a{
+     text-decoration: none;  /* 超連結底線 */
+}
+
+.col3 a{
+    padding: 5px;
+}
+
+
+body{
+    /* background-size: 1600px 1800px; */
+    /* background-size:contain */
+    background-size:cover
+    
+}
+
+.p1{
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;  /* 相對定位 */
+    left: 10%;  /* 向左方偏移10% */
+}
+
+.p2{
+    line-height: 50px;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;  /* 相對定位 */
+    left: 10%;  /* 向左方偏移10% */
+}
+
+.textemail{
+    position: absolute;
+    top: 475px;
+    left: 30%;
+}
+
+/* -------------- Portfolio -------------- */
+
+.p3{
+    font-size: 34px;
+    padding: 30px;
+    font-weight: bold;
+    position: relative;  /* 相對定位 */
+    top: 20px;
+    left: 2%;  /* 向左方偏移% */
+    letter-spacing: 12px;
+}
+
+.box2{
+    width: 1300px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;  /* 絕對定位 */
+    top: 20 ;
+	left: 20 ;
+	right: 20 ;
+
+}
+
+.box2 a{
+    padding: 10px;
+    position: relative;  /* 相對定位 */
+    top: 5%;  
+    text-decoration: none;
+}
+
+.box2 a:hover::before{
+    position: absolute;  /* 絕對定位 */
+    top: 30px;
+    left: 120px;
+    color: #fff;
+    font-size: .8em;
+    background: #346e7a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.video1:hover::before{
+    content: "Tinkercad專案-【動】物警報器";
+}
+.video2:hover::before{
+    content: "Self introduction";
+    font-family: sans-serif;
+}
+.video3:hover::before{
+    content: "物聯網-智慧農業灌溉系統";
+}
+.video4:hover::before{
+    content: "資料庫-活動管理系統";
+}
+.video5:hover::before{
+    content: "Unity-running game";
+    font-family: sans-serif;
+}
+.video6:hover::before{
+    content: "Unity-密室逃脫";
+    font-family: sans-serif;
+}
+.video7:hover::before{
+    content: "海報集";
+}
+.video8:hover::before{
+    content: "voxel模型";
+    font-family: sans-serif;
+}
