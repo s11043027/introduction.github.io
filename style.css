@@ -229,27 +229,26 @@ table{
 }
 
 .txt{  
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
     border: 2px solid #000;
     /* padding: 20px; */
     border-style: solid;
-  
+    letter-spacing: 1px;
 }
 
 .row{
     writing-mode: vertical-rl;
     padding: 30px;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 6px;  /* 文字間距 */
 }
-
 
 th{  /* 文字分散對齊 */
     text-align: left;  /* 文字靠左對齊 */
     background-color: #d9d9d9;
     /* text-align: center; */
-    text-align: justify;
+    text-align: justify; 
     text-justify: distribute-all-lines;
     text-align-last: justify;
     padding: 10px;
@@ -257,4 +256,20 @@ th{  /* 文字分散對齊 */
 
 td{
     padding: 8px;
+}
+
+.date{
+    text-align: center;
+}
+
+.padding1{
+    padding: 10px 160px;
+}
+
+.padding2{
+    padding: 10px 115px;
+}
+
+.padding3{
+    padding: 10px 100px;
 }
